@@ -1,5 +1,5 @@
-var LamboExchange = artifacts.require("./LamboExchange.sol");
+var Migrations = artifacts.require("./Migrations.sol");
 
-module.exports = function (deployer) {
-    deployer.deploy(LamboExchange);
+module.exports = function(deployer) {
+    deployer.deploy(Migrations);
 };

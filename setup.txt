@@ -2,7 +2,7 @@
 # Build
 $ npm install -g truffle@4.0.6
 $ truffle init
-$ npm install --save ethereumjs-testrpc@6.0.3
+$ npm install --save ethereumjs-testrpc@6.0.3 ganache-cli@6.0.3
 
 # Compiling contract
 $ node compile.js
